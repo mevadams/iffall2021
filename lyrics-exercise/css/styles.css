@@ -1,0 +1,40 @@
+@import url();
+body{
+    background-image:linear-gradient(rgb(248, 187, 203),rgb(176, 235, 148));
+}
+h1{
+    color:rgb(255, 98, 125);
+    font-family: Georgia;
+    font-size: 42px;
+}
+h2{
+    color:rgb(255, 152, 169);
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 36px;
+    text-indent: 25%;
+}
+p {
+color:white;
+font-family: monospace;
+}
+.lyric{
+    text-indent: 25%;
+    font-size: 18px;
+}
+.verse {
+    color:white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    max-width: 25%;
+    text-align: end;
+}
+footer{
+    color:rgb(176, 235, 148);
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
