@@ -1,0 +1,54 @@
+html{
+    margin:10%;
+    background-color: rgb(255, 255, 198);
+    font-family: 'Raleway', sans-serif;;
+}
+p{
+    color:black;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top:0px;
+    margin-bottom:auto;
+    font-style:italic;
+}
+h1{
+    font-family: 'Fleur De Leah', cursive;
+    color:red;
+    font-size: 48px;
+    margin-bottom:1.2rem;
+    text-align: center;
+    border-bottom:.5px solid red;
+}
+h2{
+    font-family: 'Fleur De Leah', cursive;
+    color:red;
+    margin-left: 15px;
+}
+section{
+    border-top:.5px solid red;
+    margin-bottom: 5%;
+}
+.Description{
+    text-align: center;
+    background-color: rgb(255, 255, 198);
+    border-top: none;
+}
+.Source{
+    margin-bottom: 0px;
+}
+.Ingredients{
+    border-top: none;
+}
+.site{
+    font-style:normal;
+    margin-bottom: .6rem;
+}
+.Imagery{
+    background-color: rgb(255, 255, 198);
+}
+img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
