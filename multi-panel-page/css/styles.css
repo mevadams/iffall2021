@@ -1,0 +1,109 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1614754844959-5e29c8ac2b26?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdWRzJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-size:cover;
+    color:rgb(48, 48, 65);
+}
+.one{
+    background-color: rgb(159, 184, 159);
+    color:rgb(74, 92, 74);
+}
+.two{
+    background-color: rgb(183, 202, 206);
+    color: rgb(83, 100, 105);
+}
+.three{
+    background-color: rgb(160, 177, 199);
+    color: rgb(87, 96, 107);
+}
+h1{
+    margin:0;
+    text-align: center;
+}
+h2{
+    margin: -3px;
+    font-size: 30px;
+}
+.content{
+    width: 960px;
+    margin: auto;
+}
+header{
+    text-align: center;
+    height: 480px;
+}
+header .content{
+    padding: 152px 0 186px 0;
+}
+header h1{
+    font-size: 80px;
+}
+
+section h1{
+    font-size: 40px;
+    padding:40px 0 15px 0;
+}
+p{
+    font-size:18px;
+    line-height: 1.6rem;
+}
+.one img{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin: 0 0 40px 40px;
+}
+.one p:last-of-type{
+    margin:0;
+    padding-bottom: 56px;
+}
+ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:0;
+}
+ul li{
+    display:block;
+    width:90%;
+}
+ul h2{
+    font-size: 20px;
+    margin: 2px 0 7px 0;
+}
+ul img{
+    object-fit:cover;
+    height:150px;
+    width:200px;
+    float:left;
+    margin: 0 12px 24px 0;
+}
+ul{
+    margin-bottom:0;
+}
+.two p{
+    margin:0;
+}
+.two li:last-of-type{
+    margin-bottom:42px;
+}
+.three h1{
+    padding:40px 0 32px 0;
+}
+.three p{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    width: 725px;
+    letter-spacing: 0.35px;
+    line-height: 36px;
+}
+.three p:last-of-type{
+    padding-bottom:102px;
+}
+footer{
+    padding: 40px 0 40px 0;
+    background-color: rgb(87, 96, 107);
+    font-size: 18px;
+    color:rgb(160, 177, 199);
+    
+}
