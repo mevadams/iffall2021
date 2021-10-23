@@ -1,0 +1,246 @@
+html{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+body{
+    margin:0;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 95px;
+    line-height: 0.9em;
+    color: white;
+    text-shadow: 2px 2px rgb(156, 31, 31);
+    text-align: right;
+    background-image:url("https://www.loveandlemons.com/wp-content/uploads/2020/06/homemade-strawberry-shortcake.jpg");
+    background-size:cover;
+    background-position: bottom;
+    background-repeat:no-repeat;
+    padding: 240px 45px 25px 60px;
+    margin:0;
+}
+.Description{
+    font-size:14px;
+    text-align: center;
+    padding: 25px 0 75px 0;
+}
+h2{
+    font-size: 24px;
+}
+.Ingredients{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    width: 600px;
+    margin:auto;
+    line-height: 1.3em;
+    font-size: 16px;
+}
+.Ingredients ul{
+    padding:0;
+    list-style: none;
+    padding-bottom: 125px;
+}
+.Ingredients li{
+    margin: 12px 0 0 0;
+    max-width:235px;
+}
+.Ingredients ul li::before {
+    content: "\2022";
+    color: rgb(156, 31, 31);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-weight: bold;
+  }
+.Ingredients p{
+    margin:0;
+}
+.Instructions .start{
+    font-family: 'Raleway', sans-serif;
+    font-size: 85px;
+    color: white;
+    text-shadow: 2px 2px rgb(156, 31, 31);
+    background-image:url("https://cdn.loveandlemons.com/wp-content/uploads/2020/06/IMG_28949.jpg");
+    background-size:cover;
+    background-position: 50%;
+    background-repeat:no-repeat;
+    padding: 240px 60px 30px 60px;
+    margin:0;
+}
+.Instructions ul{
+    margin: 100px 25% 75px 25%;
+    list-style: none;
+}
+.Instructions li{
+    padding-bottom: 50px;
+}
+.Instructions ul:first-of-type{
+    margin-top: 75px;
+}
+
+.Instructions h3{
+    font-weight:bold;
+    color: rgb(179, 62, 62);
+    font-variant: small-caps;
+}
+.Instructions .preheat{
+    font-family: 'Raleway', sans-serif;
+    font-size: 85px;
+    color: white;
+    text-shadow: 2px 2px rgb(156, 31, 31);
+    background-image:url("https://cdn.loveandlemons.com/wp-content/uploads/2020/06/IMG_29028.jpg");
+    background-size:cover;
+    background-position: 100% 25%;
+    background-repeat:no-repeat;
+    padding: 180px 60px 30px 60px;
+    margin:0;
+}
+.Tips h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 85px;
+    color: white;
+    text-shadow: 2px 2px rgb(156, 31, 31);
+    text-align: right;
+    background-image:url("https://cdn.loveandlemons.com/wp-content/uploads/2020/06/easy-strawberry-shortcake.jpg");
+    background-size:cover;
+    background-position: 50%;
+    background-repeat:no-repeat;
+    padding: 240px 60px 30px 60px;
+    margin:0;
+}
+.Tips ul{
+    margin: 75px 25% 125px 25%;
+    text-align: left;
+}
+.Tips li:first-of-type{
+    margin-top: 75px;
+}
+
+.Tips li{
+    margin-top: 100px;
+    font-weight: 600;
+    display:block;
+}
+.Enjoy h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 85px;
+    color: white;
+    text-shadow: 2px 2px rgb(156, 31, 31);
+    background-image:url("https://cdn.loveandlemons.com/wp-content/uploads/2020/06/easy-strawberry-shortcake.jpg");
+    background-size:cover;
+    background-position: 100% 100%;
+    background-repeat:no-repeat;
+    padding: 240px 60px 30px 60px;
+    margin:0;
+}
+footer{
+    padding: 40px 0 40px 0;
+}
+@media(max-width:800px){
+    h1{
+        font-size:75px;
+    }
+    .Instructions .start{
+        font-size:75px;
+    }
+    .Instructions .preheat{
+        font-size:75px;
+    }
+    .Tips h2{
+        font-size:75px;
+    }
+    .Enjoy h2{
+        font-size:75px;
+    }
+} 
+@media(max-width:630px){
+    h1{
+        font-size:65px;
+    }
+    .Instructions .start{
+        font-size:65px;
+    }
+    .Instructions .preheat{
+        font-size:65px;
+    }
+    .Tips h2{
+        font-size:65px;
+    }
+    .Enjoy h2{
+        font-size:65px;
+    }
+    .Description{
+      padding: 25px 25px 75px 25px; 
+    }
+    .Ingredients{
+      width:auto;
+      grid-template-columns: 1fr;
+      justify-items: left;
+      margin-left:75px;
+    }
+    .Ingredients li{
+      display:flex;
+      flex-wrap:wrap;
+      width:100%;
+      line-height:1.3em;
+    }
+    .Ingredients ul:first-of-type{
+        padding-bottom:0px;
+    }
+    .Instructions ul, .Tips ul{
+        margin-left:5%;
+        margin-right:15%;
+    }
+}
+@media(max-width:495px){
+    h1{
+        padding: 240px 30px 30px 0px;
+        font-size:45px;
+    }
+    .Ingredients{
+        width:auto;
+    }
+    .Instructions .start{
+        padding: 240px 0px 30px 30px;
+        font-size:45px;
+    }
+    .Instructions .preheat{
+        padding: 240px 0px 30px 30px;
+        font-size:45px;
+    }
+    .Instructions ul:first-of-type{
+        margin: 45px 10% 5px 2%;
+    }
+    .Instructions ul{
+        margin:0 0 0 0;
+    }
+    .Instructions .fourthrueight{
+        margin: 55px 10% 100px 2%;
+    }
+    .Tips h2{
+        padding: 240px 30px 30px 0px;
+        font-size:45px;
+    }
+    .Enjoy h2{
+        padding: 240px 0px 30px 30px;
+        font-size:45px;
+    }
+    footer{
+        font-size:smaller;
+    }
+} 
+@media(max-width:435px){
+    .Ingredients{
+        width:auto;
+        margin-left: 45px;
+        margin-right:auto;
+    }
+    .Instructions ul, .Instructions .fourthrueight, .Tips ul{
+        margin-left:2%;
+        margin-right:10%;
+        font-size:smaller;
+    }
+}
