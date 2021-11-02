@@ -1,0 +1,340 @@
+html {
+    display: block;
+    color: text;
+    }
+
+#btn_oldnavy{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(41, 55, 80);
+    color: white;
+    font-size: 28px;
+    font-weight:bold;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 95px;
+    padding: 15px 30px 15px 30px;
+}
+#btn_oldnavy:hover{
+    font-size:30px;
+}
+#btn_facebook{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(75, 97, 134);
+    color: white;
+    font-size: 72px;
+    font-family: helvetica;
+    font-weight:bold;
+    box-sizing: border-box;
+    border-radius: 15%;
+    margin: auto;
+    margin-top: 75px;
+    padding: 10px 10px 0px 50px;
+}
+#btn_facebook:hover{
+    background-color: rgb(82, 115, 185)
+}
+#btn_instagram{
+    text-decoration: none;
+    display: inline-block;
+    background-image: linear-gradient(to right top, rgba(255,0,0,1), rgb(189, 31, 149));
+    color: white;
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    font-weight:700px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 75px;
+    padding: 20px 30px 30px 30px;
+}
+#btn_instagram:hover{
+    box-shadow: 0 0 8px rgb(133, 25, 106);
+}
+#btn_tuckerallen{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 64px;
+    background-image:linear-gradient(to right top, rgb(105, 160, 105),rgb(105, 160, 105), rgb(216, 171, 86),rgb(199, 15, 15));
+    color: white;
+    margin: auto;
+    margin-top: 75px;
+    padding: 20px 20px 20px 20px;
+}
+#btn_tuckerallen:hover{
+    transform:scale(1.1)
+}
+#btn_newyorker{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid rgb(194, 191, 191);
+    padding: 5px;
+}
+#btn_newyorker:hover{
+    color: red;
+}
+#btn_kittens{
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    background-image:linear-gradient(to right,rgb(63, 8, 8), black);
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+    border:5px ridge red;
+}
+#btn_kittens:hover{
+    color:rgb(199, 15, 15);
+}
+#btn_fitbit{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    color:rgb(68, 163, 158);
+    font-size: 36px;
+    margin: auto;
+    margin-top: 100px;
+}
+#btn_fitbit:hover{
+    transition: 1s;
+    color:white;
+    background-color: rgb(68, 163, 158);
+    border-radius: 5px;
+    padding: 1px 3px 1px 3px;
+}
+#btn_moo{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    color:white;
+    background-color: rgb(69, 133, 97);
+    font-size: 42px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    letter-spacing: 0.02em;
+    padding: 3px 7px 3px 7px;
+}
+#btn_moo:hover{
+    transition: 0.2s;
+    font-weight:bold;
+}
+#btn_thecolorrun{
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    font-size: 56px;
+    background: -webkit-linear-gradient(orange,rgb(234, 3, 255), rgb(105, 114, 190),teal);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    line-height: 0.73;
+    margin-top: 70px;
+}
+#btn_thecolorrun:hover{
+    background-image: linear-gradient(orange,rgb(234, 3, 255), rgb(105, 114, 190));
+    color:white;
+     transition:0.2s;
+}
+#btn_tesla{
+    font-size: 84px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    border-radius:50%;
+    color:rgb(41, 26, 26);
+    background-color: rgb(188, 204, 218);
+    padding: 0px 30px 0px 30px;
+    margin-top: 65px;
+}
+#btn_tesla:hover{
+    color:white;
+    transition:0.5s;
+}
+#btn_mobg{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    font-size: 28px;
+    color:rgb(81, 131, 81);
+    margin: auto;
+    margin-top: 75px;
+}
+#btn_mobg:hover{
+    margin-right: -5px;
+    transition:0.5s;
+}
+#btn_nike{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 153, 0);
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: -2.5;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 56px;
+    margin: auto;
+    margin-top: 85px;
+}
+#btn_nike:hover{
+    color:orangered;
+    transition: 3s;
+}
+#btn_cn{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 72px;
+    margin: auto;
+    margin-top: 85px;
+    padding: 4px 12px 4px 12px;
+    border:outset;
+    text-shadow: 2px 2px rgb(170, 170, 170);
+}
+#btn_cn:hover{
+    transform:scale(0.5);
+    transition:1.5s;
+}
+#btn_lyft{
+    text-decoration: none;
+    display: inline-block;
+    background-image: linear-gradient(rgb(247, 0, 255),rgb(212, 0, 124));
+    font-family: helvetica;
+    color:white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 80px;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px 30px 30px 30px;
+    margin: auto;
+    margin-top: 85px;
+}
+#btn_lyft:hover{
+    text-shadow:2px 2px 4px rgb(236, 115, 240);
+}
+#btn_sardella{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    color:rgb(30, 82, 126);
+    font-size: 42px;
+    margin: auto;
+    margin-top: 100px;
+}
+#btn_sardella:hover{
+    transform:scale(1.5);
+    color:rgb(127, 152, 172);
+    transition:2s;
+}
+#btn_cocacola{
+    text-decoration: none;
+    text-align:left;
+    display: inline-block;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color:red;
+    font-size: 36px;
+    margin: auto;
+    margin-top: 85px;
+}
+#btn_cocacola:hover{
+    background-color:red;
+    color:white;
+    border-radius: 15px;
+    padding: 3px 7px 3px 7px;
+    transition:0.2s;
+}
+#btn_apple{
+    text-decoration: none;
+    text-align:left;
+    display: inline-block;
+    background: -webkit-linear-gradient(rgb(121, 144, 194), rgb(60, 84, 138));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-top: 100px;
+}
+#btn_apple:hover{
+    background: -webkit-linear-gradient(rgb(60, 84, 138), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition:3s;
+}
+#btn_ibm{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-decoration: none;
+    text-align:left;
+    display: inline-block;
+    background-image: linear-gradient(white, rgb(23, 23, 56) 70%, white);
+    font-size: 64px;
+    margin-top: 85px;
+    letter-spacing: 0.1em;
+    padding: 2px 0px 2px 2px;
+}
+#btn_ibm:hover{
+    text-shadow:2px 2px black;
+}
+#btn_nerf{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.4rem;
+    text-decoration: none;
+    text-align:center;
+    display: inline-block;
+    font-size: 36px;
+    margin: auto;
+    margin-top: 100px;
+    border: solid 4px orangered;
+    border-radius: 25%;
+    padding: 1px 15px 0px 15px;
+}
+#btn_nerf:hover{
+    border:none;
+    transition: 2s;
+    margin-top: 125px;
+}
+#btn_samsung{
+    text-decoration: none;
+    text-align:center;
+    display: inline-block;
+    font-family:impact;
+    font-size: 24px;
+    letter-spacing: 0.3rem;
+    color:white;
+    background-color:rgb(32, 35, 196);
+    border-radius: 50%;
+    height: 40px;
+    width: 120px;
+    transform: skewY(-11deg);
+    padding: 15px 0px 0px 0px;
+    margin: auto;
+    margin-top: 100px;
+}
+#btn_samsung:hover{
+    transform:scale(1.1);
+    rotate: 15 deg;
+}
