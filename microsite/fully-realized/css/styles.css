@@ -361,5 +361,5 @@ a:hover{
             margin-left:10%;
             font-size: 14px;
         }
-        .dropdown::selection .dropdown-content {display: block;}
+        .dropbtn::selection + .dropdown-content{display:block;}
     }
