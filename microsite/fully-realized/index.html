@@ -8,7 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Romanesco&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <script>
+
+        $( document ).ready(function() {			/* Here we're using JQuery to check that the DOM (the document) is ready */
+            
+            $(".dropdown").mouseover(function(){	/* This line says to listen for a "mouseover" event on something with with the class of "dropdown" */
+                $(".dropdown").addClass("open");	/* A mouseover happened, so now we add the class "open" to the element with teh class of "dropdown" */
+            });
+
+            $(".dropdown").mouseout(function(){		/* This line says to listen for a "mouseout" event on something with with the class of "dropdown" */
+                $(".dropdown").removeClass("open");	/* A mouseout happened, so now we remove the class "open" from element with the class of "dropdown" */
+            });
+
+            $(".selected").click(function(){		/* This line says to listen for a "click" event on something with with the class of "selected" */
+                $(".dropdown").removeClass("open");	/* A click happened, so now we remove the class "open" from the element with the class of "dropdown" */
+            });
+
+        });
+
+    </script>
 </head>
 
 <body>
