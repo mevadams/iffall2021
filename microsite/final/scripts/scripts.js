@@ -62,7 +62,7 @@ $( document ).ready(function() {			/* Here we're using JQuery to check that the 
         //console.log("Clicked a link");		/* Writing a log entry to the console, so we can see what events are firing and in what order. */
         //alert("Clicked a link");
         $(".dropdown").removeClass("open");	/* A click happened, so now we remove the class "open" from the element with the class of "dropdown" */
-        event.stopPropagation();			/* Prevent this event from propagating up through other elements, e.g. prevent it from passing through these buttons to the parent elements. */
+        event.stopImmediatePropagation();			/* Prevent this event from propagating up through other elements, e.g. prevent it from passing through these buttons to the parent elements. */
     });
 
 });
