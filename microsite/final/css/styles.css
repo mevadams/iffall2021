@@ -49,7 +49,7 @@ header{
     text-decoration: none;
     display: block;
 }
-.dropdown:hover .dropdown-content {
+.dropdown.open .dropdown-content {
     display: block;
 }
 .dropdown:hover .dropbtn {
